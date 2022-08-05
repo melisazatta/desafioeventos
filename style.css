@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+}
+
+h2 {
+    padding-top: 5rem;
+}
+
+.btn {
+    margin-top: 1rem;
+}
+
+.form-group{
+    width: 50%;
+}
+/* .validate{
+    display: flex;
+    flex-direction: column-reverse;
+} */
