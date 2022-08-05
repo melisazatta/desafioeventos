@@ -11,6 +11,7 @@ function validar(e){
     let formArray = e.target
     let nombre = formArray[0]
     let email = formArray[1]
+    let textarea = formArray[2]
 
     // console.log(mensajeError)
 
@@ -29,7 +30,7 @@ function validar(e){
         mensajeError.style.color = 'red'
         document.getElementById('email').focus();
 }else{
-            console.log(`Nombre: ${nombre.value}, Email: ${email.value}`) 
+            console.log(`Nombre: ${nombre.value}, Email: ${email.value}, mensaje: ${textarea.value}`) 
             document.getElementById('nombre').value="";
             document.getElementById('email').value="";
             document.getElementById('nombre').focus();
